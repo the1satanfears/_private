@@ -282,7 +282,7 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>https://github.com/the1satanfears/_private.git</url>
+        <url>ssh://github.com/git/repo_name.git</url>
         <branch>master</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#xD;
@@ -428,7 +428,7 @@ MUEiQMosNrjMkp/e39WEAAAAFm5lb25rbmlnaHQ3N0BnbWFpbC5jb20BAgMEBQYH&#xD;
   <revision>
     <username>root@192.168.2.5</username>
     <description>/diag_backup.php made changes</description>
-    <time>1719753463.1783</time>
+    <time>1719754126.6608</time>
   </revision>
   <OPNsense>
     <wireguard>
