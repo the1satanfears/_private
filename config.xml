@@ -284,7 +284,14 @@
         <enabled>1</enabled>
         <url>ssh://github.com/user_name/repo_name.git</url>
         <branch>master</branch>
-        <privkey/>
+        <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#xD;
+QyNTUxOQAAACC7OU5Oliz+tSvd82J+ws6mozFBIkDKLDa4zJKf3t/VhAAAAKD0gQeh9IEH&#xD;
+oQAAAAtzc2gtZWQyNTUxOQAAACC7OU5Oliz+tSvd82J+ws6mozFBIkDKLDa4zJKf3t/VhA&#xD;
+AAAECcrxK5glLViOUj8Qj69/IcR9UdHxi0cis9L/CbE5A/rrs5Tk6WLP61K93zYn7Czqaj&#xD;
+MUEiQMosNrjMkp/e39WEAAAAFm5lb25rbmlnaHQ3N0BnbWFpbC5jb20BAgMEBQYH&#xD;
+-----END OPENSSH PRIVATE KEY-----&#xD;
+</privkey>
         <user>git</user>
         <password/>
       </git>
@@ -421,7 +428,7 @@
   <revision>
     <username>root@192.168.2.5</username>
     <description>/diag_backup.php made changes</description>
-    <time>1719752616.1884</time>
+    <time>1719752744.3685</time>
   </revision>
   <OPNsense>
     <wireguard>
